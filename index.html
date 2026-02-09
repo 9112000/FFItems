@@ -1,58 +1,45 @@
-<!DOCTYPE html>
-<html data-n-head-ssr lang="en" data-lang="en" data-n-head="enc:3f9c1ae7b92d4f108af21dbe7c12f9aa">
-<head data-n-head>
-<title>FFItems - Free Fire Items</title>
-<meta data-n-head charset="UTF-8"/>
-<meta data-n-head http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta data-n-head name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta data-n-head name="description" content="Search Free Fire game items by name or description to retrieve item ID, name & details."/>
-<meta data-n-head name="keywords" content="Free Fire items, Free Fire ID, gun skins, emotes, bundles, Starexx FF, FFItems, ItemID2, FF ItemID"/>
-<meta data-n-head name="author" content="Starexx"/>
-<meta data-n-head name="robots" content="index, follow"/>
-<link data-n-head rel="canonical" href="https://realstatexx.github.io/FFItems/"/>
-<meta data-n-head property="og:title" content="FFItems - Items Database"/>
-<meta data-n-head property="og:description" content="Search Free Fire items quickly witg names & details."/>
-<meta data-n-head property="og:image" content="https://realstatexx.github.io/FFItems/icons/android-chrome-192x192.png"/>
-<meta data-n-head property="og:type" content="website"/>
-<meta data-n-head property="og:url" content="https://realstatexx.github.io/FFItems/"/>
-<meta data-n-head name="twitter:card" content="summary_large_image"/>
-<meta data-n-head name="twitter:title" content="FFItems"/>
-<meta data-n-head name="twitter:description" content="Quickly find Free Fire item IDs, names & details."/>
-<meta data-n-head name="twitter:image" content="https://realstatexx.github.io/FFItems/icons/android-chrome-192x192.png"/>
-<meta data-n-head name="google-site-verification" content="joLKEyzfZROYT_Ck4mea3yx94rNwOqRwqalvV-xcA8U"/>
-<link data-n-head rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png"/>
-<link data-n-head rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png"/>
-<link data-n-head rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"/>
-<link data-n-head rel="manifest" href="manifest.json"/>
-<link data-n-head rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-<link data-n-head href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
-<link data-n-head href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"/>
-<link data-n-head rel="stylesheet" href="src/global.css"/>
-<link data-n-head rel="stylesheet" href="src/style.css"/>
-<body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="refresh" content="0; url=https://starexx.vercel.app/" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+  <meta name="googlebot" content="noindex, nofollow" />
+  <link rel="canonical" href="https://starexx.vercel.app/" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="src/global.css"/>
+  <link rel="stylesheet" href="src/style.css"/>
+  <body>
+      
     <div class="header">
       <textarea class="search-textarea" id="searchTextarea" placeholder="Search"></textarea>
       <button class="dropdown-btn" id="filterDropdown">
         Filters
       </button>
     </div>
+      
     <div class="main-content">
       <div id="searchResults" class="search-results-text"></div>
       <div class="grid" id="grid">
         <div class="loading"></div>
-      </div>
+      </div>        
       <div class="footer">
         <button class="mode-tab active" id="modeTab">Items</button>
-        <div class="footer-pill" id="pagePill">Created by Starexx</div>
+        <div class="footer-pill" id="pagePill">1/322</div>
       </div>
     </div>
-    <div class="fade-bg" id="fadeBg"></div>
+      
+    <div class="fade-bg" id="fadeBg"></div> 
     <div class="bottom-sheet" id="pageSheet">
       <div class="pages-grid" id="pagesGrid"></div>
     </div>
+      
     <div class="bottom-sheet search-sheet" id="searchSheet">
       <div class="search-hint"></div>
     </div>
+      
     <script src="src/script.js">
     </script>
   </body>
